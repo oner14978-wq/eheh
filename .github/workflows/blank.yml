@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   secure-rdp:
-    runs-on: runs-on: [self-hosted, Windows, X64, windows-11-2026]
+    runs-on: windows-11-arm
     timeout-minutes: 360
 
     steps:
